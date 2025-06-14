@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import UploadForm from "@/components/UploadForm";
-import ImageDetector from "@/components/image-detector";
+import UploadForm from "../components/UploadForm";
+import ImageDetector from "../components/image-detector";
 
 export const metadata: Metadata = {
   title: "AI Image Detector",

@@ -3,8 +3,8 @@
 import { useState } from "react"
 import { FileUploader } from "./file-uploader"
 import { ResultsPanel } from "./results-panel"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
+import { Button } from "../components/ui/button"
+import { Card, CardContent } from "../components/ui/card"
 
 // Types for our detection results
 export type DetectionResult = {
